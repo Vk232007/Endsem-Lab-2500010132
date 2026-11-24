@@ -1,0 +1,6 @@
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 28px; }
+.chip {
+  border: 2px solid var(--ink); background: transparent;
+  padding: 6px 16px; border-radius: 999px; cursor: pointer; font-weight: 600;
+}
+.chip[aria-pressed="true"] { background: var(--ink); color: #fff; }

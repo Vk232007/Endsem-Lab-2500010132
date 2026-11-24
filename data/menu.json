@@ -1,0 +1,29 @@
+{
+  "restaurants": [
+    { "id": "r1", "name": "Spice Route", "cuisine": "North Indian", "rating": 4.5, "menu": [
+      { "id": "f1", "name": "Butter Chicken", "emoji": "🍛", "price": 320, "veg": false, "description": "Tandoori chicken in a creamy tomato gravy." },
+      { "id": "f2", "name": "Paneer Tikka", "emoji": "🧀", "price": 240, "veg": true, "description": "Char-grilled paneer with peppers and mint chutney." },
+      { "id": "f3", "name": "Garlic Naan", "emoji": "🫓", "price": 60, "veg": true, "description": "Soft tandoor bread brushed with garlic butter." },
+      { "id": "f4", "name": "Dal Makhani", "emoji": "🥣", "price": 210, "veg": true, "description": "Slow-cooked black lentils finished with cream." },
+      { "id": "f5", "name": "Mutton Rogan Josh", "emoji": "🍖", "price": 380, "veg": false, "description": "Kashmiri-style mutton curry with warm spices." }
+    ]},
+    { "id": "r2", "name": "Dosa Corner", "cuisine": "South Indian", "rating": 4.3, "menu": [
+      { "id": "f6", "name": "Masala Dosa", "emoji": "🥞", "price": 90, "veg": true, "description": "Crisp rice crepe filled with spiced potato." },
+      { "id": "f7", "name": "Idli Sambar", "emoji": "⚪", "price": 70, "veg": true, "description": "Steamed rice cakes with sambar and coconut chutney." },
+      { "id": "f8", "name": "Chicken Chettinad", "emoji": "🍗", "price": 290, "veg": false, "description": "Peppery chicken curry from Tamil Nadu." },
+      { "id": "f9", "name": "Filter Coffee", "emoji": "☕", "price": 40, "veg": true, "description": "Strong decoction coffee with frothy milk." }
+    ]},
+    { "id": "r3", "name": "Napoli Slice", "cuisine": "Italian", "rating": 4.1, "menu": [
+      { "id": "f10", "name": "Margherita Pizza", "emoji": "🍕", "price": 280, "veg": true, "description": "Tomato, mozzarella and fresh basil." },
+      { "id": "f11", "name": "Pepperoni Pizza", "emoji": "🍕", "price": 360, "veg": false, "description": "Spicy pepperoni on a thin, blistered crust." },
+      { "id": "f12", "name": "Penne Arrabbiata", "emoji": "🍝", "price": 250, "veg": true, "description": "Penne in a fiery garlic tomato sauce." },
+      { "id": "f13", "name": "Tiramisu", "emoji": "🍰", "price": 180, "veg": true, "description": "Coffee-soaked sponge layered with mascarpone." }
+    ]},
+    { "id": "r4", "name": "Wok & Roll", "cuisine": "Indo-Chinese", "rating": 4.0, "menu": [
+      { "id": "f14", "name": "Veg Manchurian", "emoji": "🥦", "price": 170, "veg": true, "description": "Fried vegetable balls in a tangy soy gravy." },
+      { "id": "f15", "name": "Chicken Fried Rice", "emoji": "🍚", "price": 200, "veg": false, "description": "Wok-tossed rice with egg, chicken and spring onion." },
+      { "id": "f16", "name": "Hakka Noodles", "emoji": "🍜", "price": 160, "veg": true, "description": "Stir-fried noodles with crunchy vegetables." },
+      { "id": "f17", "name": "Chilli Chicken", "emoji": "🌶️", "price": 250, "veg": false, "description": "Crispy chicken tossed with capsicum and chilli." }
+    ]}
+  ]
+}

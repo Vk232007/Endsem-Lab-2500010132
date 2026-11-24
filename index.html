@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu Board – Food from nearby restaurants</title>
+
+  <!-- Global styles -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+
+  <!-- Component styles -->
+  <link rel="stylesheet" href="css/components/search-bar.css">
+  <link rel="stylesheet" href="css/components/chip.css">
+  <link rel="stylesheet" href="css/components/food-card.css">
+  <link rel="stylesheet" href="css/components/restaurant-section.css">
+  <link rel="stylesheet" href="css/components/message.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Menu Board</h1>
+    <div class="cart-badge" id="cart-badge" aria-live="polite">0 items · ₹0</div>
+  </header>
+
+  <main id="app"></main>
+
+  <!-- Order matters: helpers first, then components, then the app -->
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/components/Message.js"></script>
+  <script src="js/components/Chip.js"></script>
+  <script src="js/components/SearchBar.js"></script>
+  <script src="js/components/FoodCard.js"></script>
+  <script src="js/components/RestaurantSection.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
